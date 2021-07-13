@@ -14,8 +14,7 @@ function Quote() {
       method: 'get',
       url: 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/v2/get-quotes?region=US&symbols=CLXPF',
       headers: { 
-        'x-rapidapi-key': 'INVALID', 
-        'x-rapidapi-host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
+        'x-rapidapi-host': 'api-placeholder'
       },
       data : emptyCalories
     };
