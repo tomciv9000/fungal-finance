@@ -8,14 +8,13 @@ function Quote() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [data, setData] = useState({ result: [] });
   
-
-
   useEffect(() => {
+    // Service call configuration
     const config = {
       method: 'get',
       url: 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/v2/get-quotes?region=US&symbols=CLXPF',
       headers: { 
-        'x-rapidapi-key': '917b114e06mshac185f65ba54212p18560bjsne9b926a3c3a6', 
+        'x-rapidapi-key': 'INVALID', 
         'x-rapidapi-host': 'apidojo-yahoo-finance-v1.p.rapidapi.com'
       },
       data : emptyCalories
